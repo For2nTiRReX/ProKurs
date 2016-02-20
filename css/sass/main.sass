@@ -1,0 +1,477 @@
+@import "bourbon/bourbon"
+
+$text-color: #333
+$red-color: #B61010
+$blue-color: #00316B
+$dark-color: #000000
+$green-color: #67BC5C
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+    color: red
+    box-shadow: $red-color 0 0 0 2px
+    border-color: $red-color
+    
+body input:required:valid,
+body textarea:required:valid
+    color: green
+    
+h1 
+    color: #fff
+    font-size: 60px
+    line-height: 56px
+    font-weight: bold
+    font-family: "CleanvertisingLight", sans-serif
+    margin: 0
+    
+ul
+    margin: 0
+    padding: 0
+    
+section,
+footer
+    padding: 58px 0 68px 0
+    &.s_dark
+        h2, h3, p
+            color: #fff
+    h2
+        color: $blue-color
+        font-size: 50px
+        line-height: 60px
+        margin-bottom: 50px
+        font-family: "CleanvertisingLight", sans-serif
+        text-align: center
+        margin-top: 0
+        font-weight: normal
+
+body
+    font-family: "RobotoRegular", sans-serif
+    color: $text-color
+    font-weight: normal
+    font-size: 16px
+    min-width: 320px
+    position: relative
+    line-height: 1.6
+    -webkit-font-smoothing: antialised
+    overflow-x: hidden
+
+
+
+header
+    min-height: 640px
+    background-image: url(../img/top_bg.jpg)
+    background-position: top center
+    background-size: cover
+    color: #fff
+    padding-top: 32px
+    padding-bottom: 40px
+    
+.logo
+    font-size: 40px
+    font-family: "RobotoBold", sans-srif
+    font-weight: bold
+    
+.tab_item
+    display: none
+    
+.tab_item:first-child
+    display: block
+    
+.top_phone
+    text-align: right
+    
+.top_phone,
+.bottom_phone
+    .wrapper 
+        .tab
+            text-transform: uppercase
+            cursor: pointer
+.top_phone,
+.bottom_phone 
+    .wrapper 
+        .active  
+            text-decoration: underline
+.top_phone,
+.bottom_phone
+    .tab_item
+        font-size: 34px
+        font-family: "RobotoBold", sans-serif
+    
+.top_header
+    margin-top: 70px
+    h2
+        margin: 10px 0 0
+        font-family: "CleanvertisingLight", sans-serif
+        font-size: 36px
+        
+.tabs_header
+    margin-top: 25px
+    .tab
+        display: inline-block
+        background-color: rgba(255,255,255,.25)
+        padding: 15px 18px
+        text-transform: uppercase
+        cursor: pointer
+        float: left
+        font-family: "RobotoBold", sans-srif
+        +transition(all .25s ease)
+        &.active
+            background-color: rgba(255,255,255,.6)
+            color: #000
+                
+.tabs_header .tab_content
+    background-color: rgba(255,255,255,.6)
+    padding: 15px 18px 25px
+    font-size: 18px
+    line-height: 25px
+    text-transform: uppercase
+    color: #000
+    font-family: "RobotoBold", sans-srif
+    li
+        list-style: none
+        position: relative
+        padding: 0 0 0 40px
+        margin: 10px 0
+        i
+            position: absolute
+            top: 0
+            left: 0
+            line-height: 26px
+            color: #716A67
+            font-size: 25px
+            
+.button
+    border: none
+    cursor: pointer
+    display: inline-block
+    height: 46px
+    line-height: 46px
+    padding: 0 32px
+    background-color: #000
+    text-transform: uppercase
+    text-align: center
+    color: #fff
+    border-radius: 3px
+    font-size: 16px
+    font-family: "RobotoBold", sans-srif
+    &.btn_red
+        background-color: $red-color
+    &.btn_green
+        background-color: $green-color
+    &.btn_white
+        background-color: #fff
+        color: #000
+        
+.button_wrap
+    text-align: right
+    margin-top: 20px
+    
+a.button
+    color: #fff
+    text-decoration: none
+
+.s_tizers
+    .row >div
+        margin-bottom: 35px
+    +linear-gradient(#C0D9EF, #E6EFF8)
+    color: $blue-color
+    font-family: "CleanvertisingLight", sans-serif
+    text-transform: uppercase
+    padding: 50px 0 0 0
+    strong
+        font-size: 23px
+        font-weight: normal
+        display: block
+    span
+        font-size: 13px
+        display: block
+
+
+.tiz_img,
+.tiz_descr
+    display: inline-block
+    vertical-align: bottom
+    i
+        font-size: 70px
+        line-height: 48px
+        margin-right: 5px
+        &.i_ten
+            font-family: "RobotoRegular", sans-serif
+            font-style: normal
+            letter-spacing: -15px
+            margin-right: 20px
+            font-size: 75px
+            line-height: 38px
+        &.i_elts
+            font-family: "RobotoRegular", sans-serif
+            font-style: normal
+            font-size: 20px
+            background-color: $blue-color
+            color: #fff
+            line-height: 55px
+            border-radius: 50px
+            padding: 21px 8px
+            
+.s_tizers .row div:nth-child(2) i
+    position: relative
+    bottom: 10px
+    
+.s_tizers .row div:nth-child(3) i
+    position: relative
+    bottom: 10px
+    
+.s_tizers .row div:nth-child(4) i
+    position: relative
+    bottom: 15px
+    
+
+    
+.profi_item .profi_right
+    font-family: "RobotoRegular", sans-serif
+    h3
+        color: $red-color
+        font-size: 30px
+    p strong
+        font-family: "RobotoBold", sans-serif
+
+.profi_item
+    h3
+        margin: 10px 0
+    .profi_left
+        font-family: "BadScriptRegular", sans-serif
+        padding: 45px 0
+        div
+            width: 100px
+            height: 100px
+            border-radius: 100px 
+            background-color: $red-color
+            i
+                font-size: 60px
+                color: #fff
+                padding: 10px 10px
+                border-radius: 100px 
+                margin: 12px 0 0 9px
+
+
+.profi_left_i
+    text-align: center
+    i
+        padding: 10px 0 0 0!important
+        font-weight: bold
+        line-height: 35px
+        margin: 0 0 0 -5px!important
+        display: block
+        span
+            font-size: 30px
+            font-weight: normal
+            margin: -20px 0 0 0
+
+.profi_item_wrap > div:nth-child(2) 
+    .profi_left 
+        div 
+            i
+                font-size: 55px
+                
+                
+.profi_item_wrap > div:nth-child(4) 
+    .profi_left 
+        div 
+            i
+                margin: 12px 0 0 18px
+                
+#hidden_form,
+.s_profi
+    form
+        border: $green-color 5px solid
+        background-color: #F7F7F7
+        padding: 25px 30px
+        border-radius: 5px
+        h2
+            font-family: "RobotoBold", sans-srif
+            font-size: 22px
+            color: #333
+            text-transform: uppercase
+            margin-top: 0
+            line-height: 22px
+            margin-bottom: 30px
+        label
+            color: #666
+            font-size: 14px
+            display: block
+            margin-bottom: 15px
+            
+form input, form select 
+    display: block
+    line-height: 40px
+    height: 40px
+    border: #D9D9D9 1px solid
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset
+    width: 100%
+    text-indent: 10px
+    font-size: 20px
+    margin-top: 3px
+    &:focus
+        box-shadow: $green-color 0 0 0 2px
+        border-color: $green-color
+        border-radius: 3px
+        
+    
+    
+form 
+    select 
+        background-image: url(../img/arrow.svg)
+        background-position: right 20px center
+        background-repeat: no-repeat
+        width: 110%
+        option
+            width: 100%
+    
+.label_select 
+    border-right: #D9D9D9 1px solid
+    display: block
+    overflow: hidden
+    margin-top: 3px
+   
+    
+form,
+footer
+    .button_wrap 
+        text-align: center
+        margin: 30px 0 10px
+    
+.s_review 
+    background-image: url(../img/middle_bg.jpg)
+    background-attachment: fixed
+    min-height: 500px
+    background-position: top center
+    background-size: cover
+    .review_item
+        text-align: center
+        color: #fff
+        h4
+            font-family: "Times New Roman", serif
+            font-style: italic
+            font-size: 22px
+            font-weight: normal
+            margin-top: 20px
+            margin-bottom: 20px
+        p
+            margin: 30px auto 0 auto
+            display: inline-block
+            float: none
+            font-size: 15px
+        .img-wrap
+            text-align: center
+            img
+                width: 165px
+                height: 165px
+                display: inline-block
+                border-radius: 50%
+                border: #656566 10px solid
+.owl-nav
+    div
+        width: 34px
+        height: 140px
+        background-image: url(../img/arrows.png)
+        position: absolute
+        top: 20px
+        opacity: .6
+        &:hover
+            opacity: 1
+        &.owl-next
+            right: 0
+            background-position: top right
+            
+.owl-dots
+    width: 100%
+    margin-top: 20px
+    text-align: center
+    .owl-dot
+        width: 14px
+        height: 14px
+        background-color: #fff
+        display: inline-block
+        margin: 0 4px
+        border-radius: 50%
+        opacity: .5
+        &.active
+            opacity: .8
+.hr 
+    width: 80px
+    height: 1px
+    background-color: #DDA57F
+    margin: auto
+    
+.s_back
+    background-image: url(../img/red_bg.jpg)
+    background-position: top center
+    text-align: center
+    padding: 40px 0
+    h3
+        margin-top: 0
+        text-transform: uppercase
+        font-weight: normal
+        font-size: 26px
+        text-align: center
+        background-color: rgba(255,255,255,.13)
+        padding: 10px 0
+        
+        
+.s_contacts
+    padding-bottom: 0
+    .wraper
+        margin-top: 15px
+        font-size: 18px
+    .contacts_top
+    text-align: center
+    h2
+        color: #000
+        display: inline-block
+        vertical-align: middle
+        margin-bottom: 0
+        height: 45px
+        line-height: 45px
+    .tabs
+        display: inline-block
+        vertical-align: middle
+        height: 45px
+        line-height: 45px
+        margin-left: 20px
+        .tab
+            float: left
+            padding: 0 60px
+            border: $red-color 5px solid
+            line-height: 38px
+            color: $red-color
+            &:first-child
+                border-radius: 3px 0 0 3px
+            &:last-child
+                border-radius: 0 3px 3px 0
+            &.active
+                background-color: $red-color
+                color: #fff
+                
+.map
+    margin-top: 30px
+    min-height: 480px
+    background-color: #E6D7B0
+    
+    
+footer
+    .bottom_phone
+        color: $red-color
+        text-align: center
+        margin-top: 50px
+    h2
+        color: #000
+        margin-bottom: 30px
+    p
+        font-size: 18px
+        text-align: center
+        margin-top: 0
+        
+        
+#hidden_form
+    max-width: 420px
+    margin: auto
+    position: relative

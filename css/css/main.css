@@ -1,0 +1,300 @@
+/* line 11, ../sass/main.sass */
+h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: bold;
+  font-family: "CleanvertisingLight", sans-serif;
+  margin: 0; }
+
+/* line 19, ../sass/main.sass */
+ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 23, ../sass/main.sass */
+section {
+  padding: 58px 0 68px 0; }
+  /* line 26, ../sass/main.sass */
+  section.s_dark h2, section.s_dark h3, section.s_dark p {
+    color: #fff; }
+  /* line 28, ../sass/main.sass */
+  section h2 {
+    color: #00316B;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 50px;
+    font-family: "CleanvertisingLight", sans-serif;
+    text-align: center;
+    margin-top: 0;
+    font-weight: normal; }
+
+/* line 38, ../sass/main.sass */
+body {
+  font-family: "RobotoRegular", sans-serif;
+  color: #333;
+  font-weight: normal;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised; }
+
+/* line 50, ../sass/main.sass */
+header {
+  min-height: 640px;
+  background-image: url(../img/top_bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 40px; }
+
+/* line 59, ../sass/main.sass */
+.logo {
+  font-size: 40px;
+  font-family: "RobotoBold", sans-srif;
+  font-weight: bold; }
+
+/* line 64, ../sass/main.sass */
+.tab_item {
+  display: none; }
+
+/* line 67, ../sass/main.sass */
+.tab_item:first-child {
+  display: block; }
+
+/* line 70, ../sass/main.sass */
+.top_phone {
+  text-align: right; }
+
+/* line 73, ../sass/main.sass */
+.top_phone .wrapper .tab {
+  text-transform: uppercase;
+  cursor: pointer; }
+
+/* line 76, ../sass/main.sass */
+.top_phone .wrapper .active {
+  text-decoration: underline; }
+
+/* line 78, ../sass/main.sass */
+.top_phone .tab_item {
+  font-size: 34px;
+  font-family: "RobotoBold", sans-serif; }
+
+/* line 82, ../sass/main.sass */
+.top_header {
+  margin-top: 70px; }
+  /* line 84, ../sass/main.sass */
+  .top_header h2 {
+    margin: 10px 0 0;
+    font-family: "CleanvertisingLight", sans-serif;
+    font-size: 36px; }
+
+/* line 89, ../sass/main.sass */
+.tabs_header {
+  margin-top: 25px; }
+  /* line 91, ../sass/main.sass */
+  .tabs_header .tab {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 15px 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+    font-family: "RobotoBold", sans-srif;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+    /* line 100, ../sass/main.sass */
+    .tabs_header .tab.active {
+      background-color: rgba(255, 255, 255, 0.6);
+      color: #000; }
+
+/* line 104, ../sass/main.sass */
+.tabs_header .tab_content {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px 18px 25px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "RobotoBold", sans-srif; }
+  /* line 112, ../sass/main.sass */
+  .tabs_header .tab_content li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 40px;
+    margin: 10px 0; }
+    /* line 117, ../sass/main.sass */
+    .tabs_header .tab_content li i {
+      position: absolute;
+      top: 0;
+      left: 0;
+      line-height: 26px;
+      color: #716A67;
+      font-size: 25px; }
+
+/* line 125, ../sass/main.sass */
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 32px;
+  background-color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-srif; }
+  /* line 139, ../sass/main.sass */
+  .button.btn_red {
+    background-color: #B61010; }
+  /* line 141, ../sass/main.sass */
+  .button.btn_green {
+    background-color: #67BC5C; }
+  /* line 143, ../sass/main.sass */
+  .button.btn_white {
+    background-color: #fff;
+    color: #000; }
+
+/* line 147, ../sass/main.sass */
+.button_wrap {
+  text-align: right;
+  margin-top: 20px; }
+
+/* line 151, ../sass/main.sass */
+a.button {
+  color: #fff;
+  text-decoration: none; }
+
+/* line 155, ../sass/main.sass */
+.s_tizers {
+  background-color: #C0D9EF;
+  background-image: -webkit-linear-gradient(#C0D9EF, #E6EFF8);
+  background-image: linear-gradient(#C0D9EF, #E6EFF8);
+  color: #00316B;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-transform: uppercase;
+  padding: 50px 0 0 0; }
+  /* line 156, ../sass/main.sass */
+  .s_tizers .row > div {
+    margin-bottom: 35px; }
+  /* line 163, ../sass/main.sass */
+  .s_tizers strong {
+    font-size: 23px;
+    font-weight: normal;
+    display: block; }
+  /* line 167, ../sass/main.sass */
+  .s_tizers span {
+    font-size: 13px;
+    display: block; }
+
+/* line 172, ../sass/main.sass */
+.tiz_img,
+.tiz_descr {
+  display: inline-block;
+  vertical-align: bottom; }
+  /* line 176, ../sass/main.sass */
+  .tiz_img i,
+  .tiz_descr i {
+    font-size: 70px;
+    line-height: 48px;
+    margin-right: 5px; }
+    /* line 180, ../sass/main.sass */
+    .tiz_img i.i_ten,
+    .tiz_descr i.i_ten {
+      font-family: "RobotoRegular", sans-serif;
+      font-style: normal;
+      letter-spacing: -15px;
+      margin-right: 20px;
+      font-size: 75px;
+      line-height: 38px; }
+    /* line 187, ../sass/main.sass */
+    .tiz_img i.i_elts,
+    .tiz_descr i.i_elts {
+      font-family: "RobotoRegular", sans-serif;
+      font-style: normal;
+      font-size: 20px;
+      background-color: #00316B;
+      color: #fff;
+      line-height: 55px;
+      border-radius: 50px;
+      padding: 21px 8px; }
+
+/* line 197, ../sass/main.sass */
+.s_tizers .row div:nth-child(2) i {
+  position: relative;
+  bottom: 10px; }
+
+/* line 201, ../sass/main.sass */
+.s_tizers .row div:nth-child(3) i {
+  position: relative;
+  bottom: 10px; }
+
+/* line 205, ../sass/main.sass */
+.s_tizers .row div:nth-child(4) i {
+  position: relative;
+  bottom: 15px; }
+
+/* line 211, ../sass/main.sass */
+.profi_item .profi_right {
+  font-family: "RobotoRegular", sans-serif; }
+  /* line 213, ../sass/main.sass */
+  .profi_item .profi_right h3 {
+    color: #B61010;
+    font-size: 30px; }
+  /* line 216, ../sass/main.sass */
+  .profi_item .profi_right p strong {
+    font-family: "RobotoBold", sans-serif; }
+
+/* line 220, ../sass/main.sass */
+.profi_item h3 {
+  margin: 10px 0; }
+/* line 222, ../sass/main.sass */
+.profi_item .profi_left {
+  font-family: "BadScriptRegular", sans-serif;
+  padding: 45px 0; }
+  /* line 225, ../sass/main.sass */
+  .profi_item .profi_left div {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #B61010; }
+    /* line 230, ../sass/main.sass */
+    .profi_item .profi_left div i {
+      font-size: 60px;
+      color: #fff;
+      padding: 10px 10px;
+      border-radius: 100px;
+      margin: 12px 0 0 9px; }
+
+/* line 238, ../sass/main.sass */
+.profi_left_i {
+  text-align: center; }
+  /* line 240, ../sass/main.sass */
+  .profi_left_i i {
+    padding: 10px 0 0 0 !important;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 0 0 -5px !important;
+    display: block; }
+    /* line 246, ../sass/main.sass */
+    .profi_left_i i span {
+      font-size: 30px;
+      font-weight: normal;
+      margin: -20px 0 0 0; }
+
+/* line 254, ../sass/main.sass */
+.profi_item_wrap > div:nth-child(2) .profi_left div i {
+  font-size: 55px;
+  font-family: "BadScriptRegular", sans-serif; }
+
+/* line 261, ../sass/main.sass */
+.profi_item_wrap > div:nth-child(4) .profi_left div i {
+  margin: 12px 0 0 18px; }
+
+/*# sourceMappingURL=main.css.map */
